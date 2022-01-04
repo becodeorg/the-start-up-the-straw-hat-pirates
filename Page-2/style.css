@@ -1,1 +1,103 @@
+<<<<<<< HEAD
 /* No CSS *//*# sourceMappingURL=style.css.map */
+=======
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: Monsterrat, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3E3939;
+  height: 300px;
+}
+
+header nav {
+  background-color: #2C2727;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 20px;
+}
+
+header nav #logo {
+  background-color: #FF7517;
+  /*temporary placeholder for actual logo*/
+  width: 50px;
+  height: 50px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li {
+  padding: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #FF7517;
+}
+
+header nav ul #sign-up {
+  border-left: 1px solid #FF7517;
+  font-weight: bold;
+}
+
+main #wrapper {
+  max-width: 80%;
+  /*wrapper doesn't want to work...*/
+  margin: 0 auto;
+}
+
+main nav {
+  border-bottom: 1px solid #F6F4F4;
+  padding: 5px 20px;
+}
+
+main nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+main nav ul li {
+  padding: 5px 10px;
+}
+
+main nav ul li a {
+  text-decoration: none;
+  color: #3E3939;
+}
+
+main nav ul li a:hover {
+  color: #FF7517;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+main section {
+  background-color: #3E3939;
+}
+
+footer {
+  background-color: #F6F4F4;
+  height: 200px;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 20bc4ad9ab1114cd4e9080e22dfa5ec132751a53
