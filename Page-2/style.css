@@ -49,8 +49,15 @@ header nav ul #sign-up {
   font-weight: bold;
 }
 
+main #wrapper {
+  max-width: 80%;
+  /*wrapper doesn't want to work...*/
+  margin: 0 auto;
+}
+
 main nav {
   border-bottom: 1px solid #F6F4F4;
+  padding: 5px 20px;
 }
 
 main nav ul {
@@ -61,11 +68,12 @@ main nav ul {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  padding: 5px 20px;
+  margin: 5px 0;
+  padding: 5px;
 }
 
 main nav ul li {
-  padding: 0 10px;
+  padding: 5px 10px;
 }
 
 main nav ul li a {
@@ -77,6 +85,10 @@ main nav ul li a:hover {
   color: #FF7517;
   font-size: 1.1em;
   font-weight: bold;
+}
+
+main section {
+  background-color: #3E3939;
 }
 
 footer {

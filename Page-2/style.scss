@@ -38,15 +38,21 @@ header {
 }
 
 main {
+    #wrapper {
+        max-width: 80%;    /*wrapper doesn't want to work...*/
+        margin: 0 auto;
+    }
     nav {
         border-bottom: 1px solid #F6F4F4;
+        padding: 5px 20px;
         ul {
             display: flex;
             list-style-type: none;
             justify-content: start;
-            padding: 5px 20px;
+            margin: 5px 0;
+            padding: 5px;
             li {
-                padding: 0 10px;
+                padding: 5px 10px;
                 a {
                     text-decoration: none;
                     color: #3E3939;
@@ -58,6 +64,9 @@ main {
                 }
             }
         }
+    }
+    section {
+        background-color: #3E3939; // it's just for visual example for layout
     }
 }
 
