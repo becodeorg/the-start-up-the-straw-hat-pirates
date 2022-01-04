@@ -13,26 +13,40 @@ body {
 }
 
 header nav {
-  background-color: #3E3939;
+  background-color: #2C2727;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav img {
-  width: 300px;
+  width: 200px;
+  margin: 10px;
 }
 
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 400px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 header nav a {
-  color: aliceblue;
+  color: #FF7517;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+header nav li:first-child a {
+  background-color: #FF7517;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

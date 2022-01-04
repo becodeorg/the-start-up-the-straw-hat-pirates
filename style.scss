@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$main-color-dark: #2C2727;
+$text-color-orange: #FF7517;
+
 
 * {
     margin: 0;
@@ -15,21 +18,32 @@ body {
 
 header {
 
-
     nav {
-        background-color: #3E3939;
+        background-color: $main-color-dark;
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         img {
-            width: 300px;
+            width: 200px;
+            margin: 10px;
         }
         ul {
             display: flex;
+            width: 400px;
+            justify-content: space-around;
         }
 
         a {
-            color: aliceblue;
+            color: $text-color-orange;
+            padding: 10px;
+            border-radius: 10%;
+
         }
+        li:first-child a {
+            background-color: $text-color-orange;
+            color: white;
+        }
+        
     }
 }
