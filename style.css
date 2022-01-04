@@ -97,8 +97,18 @@ main {
   width: 80%;
   margin: auto;
   border: 1px solid #d4d4d4;
-  height: 400px;
+  height: 800px;
   margin-top: 100px;
   text-align: center;
+}
+
+main .cardContainer .card {
+  max-width: 400px;
+}
+
+main .cardContainer .card img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
