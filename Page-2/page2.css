@@ -82,6 +82,11 @@ main section {
   background-color: #F6F4F4;
 }
 
+main section h2 {
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
 #wrapper {
   max-width: 80%;
   margin: 0 auto;
