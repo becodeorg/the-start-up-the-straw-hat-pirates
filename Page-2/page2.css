@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: Monsterrat, sans-serif;
+  color: #3E3939;
   margin: 0;
   padding: 0;
 }
@@ -31,16 +37,11 @@ header nav #logo {
   height: 50px;
 }
 
-header nav ul {
-  list-style-type: none;
-}
-
 header nav ul li {
   padding: 0 10px;
 }
 
 header nav ul li a {
-  text-decoration: none;
   color: #FF7517;
 }
 
@@ -55,7 +56,6 @@ main nav {
 }
 
 main nav ul {
-  list-style-type: none;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
@@ -65,11 +65,6 @@ main nav ul {
 
 main nav ul li {
   padding: 5px 10px;
-}
-
-main nav ul li a {
-  text-decoration: none;
-  color: #3E3939;
 }
 
 main nav ul li a:hover {
@@ -98,19 +93,11 @@ footer section {
           justify-content: start;
 }
 
-footer section ul {
-  list-style-type: none;
-}
-
 footer section ul li {
   padding: 5px;
 }
 
 footer section ul li p {
   font-weight: bold;
-}
-
-footer section ul li a {
-  text-decoration: none;
 }
 /*# sourceMappingURL=page2.css.map */
