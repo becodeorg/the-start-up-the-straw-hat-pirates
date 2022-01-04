@@ -1,2 +1,107 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+<<<<<<< HEAD
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F6F4F4;
+}
+
+header nav {
+  background-color: #2C2727;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav img {
+  width: 200px;
+  margin: 10px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav a {
+  color: #FF7517;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+header nav li:first-child a {
+  background-color: #FF7517;
+  color: black;
+  font-weight: bold;
+}
+
+h1, h2, p {
+  color: white;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow: 2px 0px 5px #2C2727;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 20px;
+  color: #706a6a;
+}
+
+.imageHeader {
+  background-image: url(./headerimage.jpg);
+  min-height: 600px;
+  background-position: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.imageHeader p {
+  width: 40%;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #d4d4d4;
+  height: 400px;
+  margin-top: 100px;
+  text-align: center;
+}
+=======
+>>>>>>> 20bc4ad9ab1114cd4e9080e22dfa5ec132751a53
 /*# sourceMappingURL=style.css.map */
