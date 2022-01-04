@@ -10,7 +10,7 @@ header {
   height: 300px;
 }
 
-nav {
+header nav {
   background-color: #2C2727;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,31 +21,67 @@ nav {
   padding: 5px 20px;
 }
 
-nav ul {
+header nav #logo {
+  background-color: #FF7517;
+  /*temporary placeholder for actual logo*/
+  width: 50px;
+  height: 50px;
+}
+
+header nav ul {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-nav ul li {
+header nav ul li {
   padding: 0 10px;
 }
 
-nav ul li a {
+header nav ul li a {
   text-decoration: none;
   color: #FF7517;
 }
 
-nav ul #sign-up {
+header nav ul #sign-up {
   border-left: 1px solid #FF7517;
   font-weight: bold;
 }
 
-/*----------images--------------*/
-#logo {
-  background-color: #FF7517;
-  width: 50px;
-  height: 50px;
+main nav {
+  border-bottom: 1px solid #F6F4F4;
+}
+
+main nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 5px 20px;
+}
+
+main nav ul li {
+  padding: 0 10px;
+}
+
+main nav ul li a {
+  text-decoration: none;
+  color: #3E3939;
+}
+
+main nav ul li a:hover {
+  color: #FF7517;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #F6F4F4;
+  height: 200px;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
