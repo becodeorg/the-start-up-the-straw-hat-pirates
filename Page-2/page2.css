@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Monsterrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #3E3939;
   margin: 0;
   padding: 0;
@@ -85,6 +85,7 @@ main section {
 footer {
   background-color: #F6F4F4;
   height: 300px;
+  text-align: center;
 }
 
 footer section {
@@ -93,11 +94,19 @@ footer section {
           justify-content: start;
 }
 
+footer section ul {
+  text-align: left;
+}
+
 footer section ul li {
   padding: 5px;
 }
 
 footer section ul li p {
   font-weight: bold;
+}
+
+footer section ul li a {
+  color: #3E3939;
 }
 /*# sourceMappingURL=page2.css.map */
