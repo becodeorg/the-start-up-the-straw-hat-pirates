@@ -52,6 +52,9 @@ main {
             li {
                 padding: 5px 10px;
                 padding-left: 0;
+                a {
+                    color: #3E3939;
+                }
                 a:hover {
                     color: #FF7517;
                     font-size: 1.1em;
@@ -86,6 +89,9 @@ footer {
                 a {
                     color: #3E3939;
                 }
+            }
+            .logo {
+                text-align: center;
             }
         }
     }

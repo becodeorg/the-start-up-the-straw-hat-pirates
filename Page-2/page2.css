@@ -68,6 +68,10 @@ main nav ul li {
   padding-left: 0;
 }
 
+main nav ul li a {
+  color: #3E3939;
+}
+
 main nav ul li a:hover {
   color: #FF7517;
   font-size: 1.1em;
@@ -109,5 +113,9 @@ footer section ul li p {
 
 footer section ul li a {
   color: #3E3939;
+}
+
+footer section ul .logo {
+  text-align: center;
 }
 /*# sourceMappingURL=page2.css.map */
