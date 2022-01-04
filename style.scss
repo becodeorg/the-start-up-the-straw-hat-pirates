@@ -85,15 +85,31 @@ main {
     width: 80%;
     margin: auto;
     border: 1px solid rgb(212, 212, 212);
-    height: 800px;
     margin-top: 100px;
     text-align: center;
 
     .cardContainer {
 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
 
         .card {
             max-width: 400px;
+            background-color: grey;
+            margin: 30px 0px;
+
+            h3 {
+                margin: 10px 0px;
+            }
+            p {
+                margin: 10px 0px;
+            }
+            a {
+                margin: 15px 0px;
+                color: honeydew;
+                display: inline-block;
+            }
 
             img {
                 object-fit: contain;
