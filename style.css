@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -98,10 +97,18 @@ main {
   width: 80%;
   margin: auto;
   border: 1px solid #d4d4d4;
-  height: 400px;
+  height: 800px;
   margin-top: 100px;
   text-align: center;
 }
-=======
->>>>>>> 20bc4ad9ab1114cd4e9080e22dfa5ec132751a53
+
+main .cardContainer .card {
+  max-width: 400px;
+}
+
+main .cardContainer .card img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
