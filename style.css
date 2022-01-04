@@ -42,11 +42,48 @@ header nav ul {
 header nav a {
   color: #FF7517;
   padding: 10px;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 header nav li:first-child a {
   background-color: #FF7517;
+  color: black;
+  font-weight: bold;
+}
+
+h1, h2, p {
   color: white;
+  text-shadow: 2px 0px 5px #2C2727;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.imageHeader {
+  background-image: url(./headerimage.jpg);
+  min-height: 600px;
+  background-position: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
