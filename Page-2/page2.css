@@ -5,6 +5,12 @@ body {
   padding: 0;
 }
 
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 header {
   background-color: #3E3939;
   height: 300px;
@@ -12,9 +18,6 @@ header {
 
 header nav {
   background-color: #2C2727;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -30,9 +33,6 @@ header nav #logo {
 
 header nav ul {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 header nav ul li {
@@ -55,9 +55,6 @@ main nav {
 }
 
 main nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   list-style-type: none;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -96,15 +93,25 @@ footer {
   height: 300px;
 }
 
-footer ul {
+footer section {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+footer section ul {
   list-style-type: none;
 }
 
-footer ul li {
+footer section ul li {
   padding: 5px;
 }
 
-footer ul li a {
+footer section ul li p {
+  font-weight: bold;
+}
+
+footer section ul li a {
   text-decoration: none;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=page2.css.map */
