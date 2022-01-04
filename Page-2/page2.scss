@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
 body {
-    font-family: Monsterrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    color: #3E3939;
     margin: 0;
     padding: 0;
 }
@@ -22,11 +27,9 @@ header {
             height: 50px;
         }
         ul {
-            list-style-type: none;
             li {
                 padding: 0 10px;
                 a {
-                    text-decoration: none;
                     color: #FF7517;
                 }
             }
@@ -41,16 +44,15 @@ header {
 main {
     nav {
         border-bottom: 1px solid #F6F4F4;
-        padding: 5px 20px;
+        padding: 5px 0;
         ul {
-            list-style-type: none;
             justify-content: start;
             margin: 5px 0;
-            padding: 5px;
+            padding: 5px 0;
             li {
                 padding: 5px 10px;
+                padding-left: 0;
                 a {
-                    text-decoration: none;
                     color: #3E3939;
                 }
                 a:hover {
@@ -74,18 +76,22 @@ main {
 footer {
     background-color: #F6F4F4;
     height: 300px;
+    text-align: center;
     section {
         justify-content: start;
         ul {
-            list-style-type: none;
+            text-align: left;
             li {
                 padding: 5px;
                 p {
                     font-weight: bold;
                 }
                 a {
-                    text-decoration: none;
+                    color: #3E3939;
                 }
+            }
+            .logo {
+                text-align: center;
             }
         }
     }

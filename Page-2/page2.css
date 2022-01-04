@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 body {
-  font-family: Monsterrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #3E3939;
   margin: 0;
   padding: 0;
 }
@@ -31,16 +37,11 @@ header nav #logo {
   height: 50px;
 }
 
-header nav ul {
-  list-style-type: none;
-}
-
 header nav ul li {
   padding: 0 10px;
 }
 
 header nav ul li a {
-  text-decoration: none;
   color: #FF7517;
 }
 
@@ -51,24 +52,23 @@ header nav ul #sign-up {
 
 main nav {
   border-bottom: 1px solid #F6F4F4;
-  padding: 5px 20px;
+  padding: 5px 0;
 }
 
 main nav ul {
-  list-style-type: none;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
   margin: 5px 0;
-  padding: 5px;
+  padding: 5px 0;
 }
 
 main nav ul li {
   padding: 5px 10px;
+  padding-left: 0;
 }
 
 main nav ul li a {
-  text-decoration: none;
   color: #3E3939;
 }
 
@@ -90,6 +90,7 @@ main section {
 footer {
   background-color: #F6F4F4;
   height: 300px;
+  text-align: center;
 }
 
 footer section {
@@ -99,7 +100,7 @@ footer section {
 }
 
 footer section ul {
-  list-style-type: none;
+  text-align: left;
 }
 
 footer section ul li {
@@ -111,6 +112,10 @@ footer section ul li p {
 }
 
 footer section ul li a {
-  text-decoration: none;
+  color: #3E3939;
+}
+
+footer section ul .logo {
+  text-align: center;
 }
 /*# sourceMappingURL=page2.css.map */
