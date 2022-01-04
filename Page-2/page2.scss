@@ -38,10 +38,7 @@ header {
 }
 
 main {
-    #wrapper {
-        max-width: 80%;    /*wrapper doesn't want to work...*/
-        margin: 0 auto;
-    }
+
     nav {
         border-bottom: 1px solid #F6F4F4;
         padding: 5px 20px;
@@ -66,13 +63,25 @@ main {
         }
     }
     section {
-        background-color: #3E3939; // it's just for visual example for layout
+        background-color: #F6F4F4; // it's just for visual example for layout
     }
+}
+#wrapper {
+    max-width: 80%;    /*wrapper doesn't want to work...*/
+    margin: 0 auto;
 }
 
 
 footer {
     background-color: #F6F4F4;
-    height: 200px;
-    margin: 0;
+    height: 300px;
+    ul {
+        list-style-type: none;
+        li {
+            padding: 5px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
 }
