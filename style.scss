@@ -139,24 +139,19 @@ main {
     background-color: #F6F4F4;
     text-align: center;
     padding: 20px 0px;
-    border-top: 1px solid gray;
-    border-bottom:1px solid gray;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom:1px solid rgb(224, 224, 224);
 }
-
 .comment {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
     margin: auto;
-    
-    
-
 
     .textbox {
         display: flex;
-        width: 60%;
-        
+        width: 60%; 
     }
 
     .arrow {
