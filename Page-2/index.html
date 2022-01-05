@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Zuiderpoort office complex</title>
+    <!--swiper stylesheet-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"> 
+    <!--custom stylesheet-->
     <link rel="stylesheet" href="page2.css">
 </head>
 <body>
@@ -19,6 +21,24 @@
                 <li id="sign-up"><a href="#">Sign up</a></li>
             </ul>
         </nav>
+            <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/img/zuiderpoort1.jpg" alt="zuiderpoort"></div>
+            <div class="swiper-slide"><img src="/img/zuiderpoort2.jpg" alt="zuiderpoort"></div>
+            <div class="swiper-slide"><img src="/img/zuiderpoort3.jpg" alt="zuiderpoort"></div>
+            <div class="swiper-slide"><img src="/img/zuiderpoort4.jpg" alt="zuiderpoort"></div>
+            <div class="swiper-slide"><img src="/img/zuiderpoort5.jpg" alt="zuiderpoort"></div>
+            <div class="swiper-slide"><img src="/img/zuiderpoort6.jpg" alt="zuiderpoort"></div>
+            <div class="swiper-slide"><img src="/img/zuiderpoort7.jpg" alt="zuiderpoort"></div>
+            <div class="swiper-slide"><img src="/img/zuiderpoort8.jpg" alt="zuiderpoort"></div>
+            <div class="swiper-slide"><img src="/img/zuiderpoort9.jpg" alt="zuiderpoort"></div>
+            <div class="swiper-slide"><img src="/img/zuiderpoort10.jpg" alt="zuiderpoort"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
     </header>
 
     <main id="wrapper">
@@ -145,6 +165,27 @@
             </ul>
         </section>
         <p>&copy; 2022 UniWork</p>
-    </footer>   
+    </footer>  
+    <!--script for swiper--> 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 </body>
 </html>
