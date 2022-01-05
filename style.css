@@ -165,8 +165,8 @@ main .cardContainer .card img {
   background-color: #F6F4F4;
   text-align: center;
   padding: 20px 0px;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .comment {
