@@ -80,11 +80,17 @@ main nav ul li a:hover {
 
 main section {
   background-color: #F6F4F4;
+  margin: 15px 0;
 }
 
 main section h2 {
   font-weight: normal;
   font-size: 0.8em;
+}
+
+main section img {
+  max-width: 100%;
+  height: auto;
 }
 
 #wrapper {
