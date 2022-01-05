@@ -65,7 +65,7 @@ h2 {
 }
 
 .imageHeader {
-    background-image: url(./headerimage.jpg);
+    background-image: url(./img/headerimage.jpg);
     min-height: 600px;
     background-position: center;
     width: 100%;
@@ -121,6 +121,7 @@ main {
                 background-color: $text-color-orange;
                 padding: 20px;
                 width: 70%;
+                border-radius: 5%;
             }
 
             img {

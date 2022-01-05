@@ -69,7 +69,7 @@ h2 {
 }
 
 .imageHeader {
-  background-image: url(./headerimage.jpg);
+  background-image: url(./img/headerimage.jpg);
   min-height: 600px;
   background-position: center;
   width: 100%;
@@ -151,6 +151,7 @@ main .cardContainer .card a {
   background-color: #FF7517;
   padding: 20px;
   width: 70%;
+  border-radius: 5%;
 }
 
 main .cardContainer .card img {
