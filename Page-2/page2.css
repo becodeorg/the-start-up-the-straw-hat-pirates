@@ -52,7 +52,7 @@ header nav ul #sign-up {
 
 /*----------used Swiper library for the carousel---------*/
 .swiper {
-  width: 40%;
+  width: 100%;
   height: 75%;
   margin: 5px auto;
 }
@@ -60,7 +60,7 @@ header nav ul #sign-up {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: #3E3939;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -77,8 +77,8 @@ header nav ul #sign-up {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -116,7 +116,7 @@ main nav ul li a:hover {
 main section {
   background-color: #F6F4F4;
   margin: 15px 0;
-  padding-left: 10px;
+  padding: 3px 25px 25px;
 }
 
 main section h2 {
