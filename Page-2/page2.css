@@ -81,6 +81,7 @@ main nav ul li a:hover {
 main section {
   background-color: #F6F4F4;
   margin: 15px 0;
+  padding-left: 10px;
 }
 
 main section h2 {
@@ -91,6 +92,10 @@ main section h2 {
 main section img {
   max-width: 100%;
   height: auto;
+}
+
+main section iframe {
+  margin: 10px;
 }
 
 #wrapper {
