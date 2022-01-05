@@ -96,7 +96,6 @@ h2 {
 main {
   width: 80%;
   margin: auto;
-  border: 1px solid #d4d4d4;
   margin-top: 100px;
   text-align: center;
 }
@@ -160,6 +159,85 @@ main .cardContainer .card img {
   width: 100%;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
+}
+
+.reviews {
+  background-color: #F6F4F4;
+  text-align: center;
+  padding: 20px 0px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.comment .textbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+}
+
+.comment .arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 58px 58px 0;
+  border-color: transparent #FF7517 transparent transparent;
+  margin-top: 10px;
+}
+
+.comment .arrowRight {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 58px 58px 0 0;
+  border-color: #FF7517 transparent transparent transparent;
+  margin-top: 10px;
+}
+
+.comment .textcontainer {
+  background-color: #FF7517;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 2px 2px 7px #b6b6b6;
+          box-shadow: 2px 2px 7px #b6b6b6;
+}
+
+.person {
+  padding: 15px;
+}
+
+.person h4 {
+  margin: 10px 0px;
+}
+
+.person img {
+  border-radius: 50%;
+}
+
+.person hr {
+  width: 25%;
+  margin: auto;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin-bottom: 10px;
 }
 
 footer {
