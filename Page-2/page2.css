@@ -210,6 +210,10 @@ main #reviews .button {
   cursor: pointer;
 }
 
+main #reviews button:hover {
+  font-weight: bold;
+}
+
 main #reviews article:not(:last-child) {
   border-bottom: 1px solid #3e393925;
 }
