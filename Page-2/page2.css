@@ -254,6 +254,15 @@ main #reviews article {
   text-align: justify;
 }
 
+main #reviews article .star-rating {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+main #reviews article .star-rating .checked {
+  color: #FF7517;
+}
+
 main #reviews article h4 {
   margin-bottom: 10px;
   color: #FF7517;

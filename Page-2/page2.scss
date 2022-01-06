@@ -210,6 +210,13 @@ main {
         }
         article {
             text-align: justify;
+            .star-rating {
+                font-size: 1.5em;
+                margin-bottom: 5px;
+                .checked {
+                    color: #FF7517;
+                }
+            }
             h4 {
                 margin-bottom: 10px;
                 color:#FF7517;
