@@ -12,11 +12,11 @@
 </head>
 <body>
     <header>
-        <nav class="container">
+        <nav class="flex-container">
             <a href="#" id="logo">        <!--link for Jian his home page should come here-->
                 <img src="#" alt="logo">
             </a>
-            <ul class="container">
+            <ul class="flex-container">
                 <li><a href="#">Log in</a></li>
                 <li id="sign-up"><a href="#">Sign up</a></li>
             </ul>
@@ -43,16 +43,16 @@
 
     <main id="wrapper">
         <nav>
-            <ul class="container">
+            <ul class="flex-container">
                 <li><a href="#overview">Overview</a></li>
                 <li><a href="#location">Location</a></li>
                 <li><a href="#reviews">Reviews</a></li>
             </ul>
         </nav>
-        <section id="overview" class="container">
+        <section id="overview" class="flex-container">
             <h1>Zuiderpoort office complex</h1>
             <h2>Gaston Crommenlaan 4 &#124; 9050 Ghent &#124; Belgium</h2>
-            <div class="container">
+            <div class="flex-container">
                 <p>The Zuiderpoort office complex has 62,000 m² of top-quality offices and 1,366 parking spaces. 
                     The Zuiderpoort is located on the south side of Ghent and enjoys a very accessible and visible location. 
                     This office complex offers many exclusive benefits, comfortable and efficient rooms and has a "Very Good" score from BREEAM.
@@ -61,7 +61,7 @@
             </div>
             <article>
                 <h3>Amenities &#38; Services</h3>
-                <div class="container">
+                <div class="flex-container">
                     <ul>
                         <li>
                             <img src="/img/wifi.svg" alt="wifi sign" width="16" height="16">
@@ -116,40 +116,49 @@
             </article>
             <a href="http://www.zuiderpoort-offices.be/en/">More info</a>
         </section>
-        <section id="location">
+        <section id="location" class="flex-container">
             <h1>This is the place to be</h1>
             <h2>Ghent &#124; Flanders &#124;  Belgium</h2>
-            <p>Zuiderpoort is situated in the city of Ghent, more specifically part of Ledeberg 
-                which is one of the many districts in the city. The building has a strategic location, 
-                close to the highway, the center, train stations of Gent Sint-Pieters and Gent-Dampoort, 
-                bus stops of De Lijn as well as a FREE bus shuttle from the main station. 
-                Therefore it's easily accesible by car, public transport, bicycle and even on foot from one of the train stations.
-            </p>
-            <ul>
-                <li>By bicycle:
+            <div class="flex-container" id="section2">
+                <div>
+                    <p>Zuiderpoort is situated in the city of Ghent, more specifically part of Ledeberg 
+                        which is one of the many districts in the city. The building has a strategic location, 
+                        close to the highway, the center, train stations of Gent Sint-Pieters and Gent-Dampoort, 
+                        bus stops of De Lijn as well as a FREE bus shuttle from the main station. 
+                        Therefore it's easily accesible by car, public transport, bicycle and even on foot from one of the train stations.
+                    </p>
                     <ul>
-                        <li><p>Gent Sint-Pieters station: 9 minutes</p></li>
-                        <li><p>Gent Dampoort station: 10 minutes </p></li>
+                        <li>By bicycle:
+                            <ul>
+                                <li><p>Gent Sint-Pieters station: 9 minutes</p></li>
+                                <li><p>Gent Dampoort station: 10 minutes </p></li>
+                            </ul>
+                        </li>
+                        <li>On foot:
+                            <ul>
+                                <li><p>Gent Sint-Pieters station: 27 minutes</p></li>
+                                <li><p>Gent Dampoort station: 35 minutes</p></li>
+                            </ul>
+                        </li>     
                     </ul>
-                </li>
-                <li>On foot:
-                    <ul>
-                        <li><p>Gent Sint-Pieters station: 27 minutes</p></li>
-                        <li><p>Gent Dampoort station: 35 minutes</p></li>
-                    </ul>
-                </li>     
-            </ul>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7096.273197517662!2d3.7306944476382737!3d51.03625619109603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c371556f52318f%3A0x5f5246c3223b1ba!2sZuiderpoort!5e0!3m2!1snl!2sbe!4v1641387668774!5m2!1snl!2sbe" 
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-            </iframe>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7096.273197517662!2d3.7306944476382737!3d51.03625619109603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c371556f52318f%3A0x5f5246c3223b1ba!2sZuiderpoort!5e0!3m2!1snl!2sbe!4v1641387668774!5m2!1snl!2sbe" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+
+            </div>
+  
         </section>
         <section id="reviews">
+            <h1>Reviews</h1>
             <p>blablabalalba</p>
         </section>
     </main>
 
     <footer>
-        <section class="container">
+        <section class="flex-container">
             <ul>
                 <li><p>UniWork</p></li>
                 <li><a href="#">Customer Service</a></li>
