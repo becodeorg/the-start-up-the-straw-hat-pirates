@@ -11,6 +11,14 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: #F6F4F4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(/img/large-triangles.svg);
 }
 
 header nav {
@@ -51,5 +59,49 @@ header nav .previous {
 
 header nav .previous:hover {
   background-color: #494343;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .loginContainer {
+  width: 40%;
+  height: 400px;
+  background-color: #F6F4F4;
+}
+
+main .loginContainer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5%;
+}
+
+main .loginContainer form input {
+  margin: 10px 0;
+}
+
+footer {
+  height: 50px;
+  background-color: #3E3939;
 }
 /*# sourceMappingURL=login.css.map */
