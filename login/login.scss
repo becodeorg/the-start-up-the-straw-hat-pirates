@@ -94,6 +94,10 @@ main {
 
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     background-color: #3E3939;
+    color:#FF7517;
 }
