@@ -123,7 +123,7 @@ main nav ul li a:hover {
 main section {
   background-color: #F6F4F4;
   margin: 15px 0;
-  padding: 3px 25px 25px;
+  padding: 15px 25px 25px;
   border-radius: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -134,6 +134,10 @@ main section {
 main section h2 {
   font-weight: normal;
   font-size: 0.8em;
+}
+
+main section p {
+  margin-top: 15px;
 }
 
 main section img {
@@ -152,6 +156,18 @@ main section div p {
   width: 70%;
 }
 
+main section article {
+  padding: 10px 0;
+}
+
+main section article div {
+  padding-top: 10px;
+}
+
+main section article div li {
+  padding: 3px;
+}
+
 main section #section2 {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
@@ -162,8 +178,16 @@ main section #section2 p {
   width: 100%;
 }
 
-main section #section2 ul {
-  padding-left: 15px;
+main section #section2 .first-ul {
+  padding: 10px 15px;
+}
+
+main section #section2 .first-ul .first-list {
+  margin: 5px 0;
+}
+
+main section #section2 .first-ul .nested-ul {
+  padding: 5px 15px;
 }
 
 main section a {
@@ -232,6 +256,7 @@ footer section {
 
 footer section ul {
   text-align: left;
+  padding: 25px;
 }
 
 footer section ul li {

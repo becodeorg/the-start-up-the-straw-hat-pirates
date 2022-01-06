@@ -112,12 +112,15 @@ main {
     section {
         background-color: #F6F4F4; // it's just for visual example for layout
         margin: 15px 0;
-        padding: 3px 25px 25px;
+        padding: 15px 25px 25px;
         border-radius: 10px;
         flex-direction: column;
         h2 {
             font-weight: normal;
             font-size: 0.8em;
+        }
+        p {
+            margin-top: 15px;
         }
         img {                   //this makes the img responsive
             max-width: 100%;
@@ -130,6 +133,15 @@ main {
                 width: 70%;
             }
         }
+        article {
+            padding: 10px 0;
+            div {
+                padding-top: 10px;
+                li {
+                    padding: 3px;
+                }
+            }
+        }
 
         #section2 {
             flex-wrap: nowrap;
@@ -137,9 +149,17 @@ main {
             p {
                 width: 100%;
             }
-            ul {
-                padding-left: 15px;
+            .first-ul {
+                padding: 10px 15px;
+                .first-list {
+                    margin: 5px 0;
+                    
+                }
+                .nested-ul {
+                    padding: 5px 15px;
+                }
             }
+
         }
 
         a {
@@ -194,6 +214,7 @@ footer {
         justify-content: start;
         ul {
             text-align: left;
+            padding: 25px;
             li {
                 padding: 5px;
                 p {
