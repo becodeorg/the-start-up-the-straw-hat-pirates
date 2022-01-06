@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   list-style-type: none;
 }
@@ -7,8 +9,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: #3E3939;
-  margin: 0;
-  padding: 0;
 }
 
 .flex-container {
@@ -152,10 +152,6 @@ main section div p {
   width: 70%;
 }
 
-main section article > div {
-  margin-left: -30px;
-}
-
 main section #section2 {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
@@ -206,7 +202,7 @@ main #reviews .button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 25px;
   cursor: pointer;
 }
 
@@ -216,6 +212,10 @@ main #reviews button:hover {
 
 main #reviews article:not(:last-child) {
   border-bottom: 1px solid #3e393925;
+}
+
+main #reviews article span {
+  font-size: 0.83em;
 }
 
 footer {
