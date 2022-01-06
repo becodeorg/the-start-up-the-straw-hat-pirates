@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   list-style-type: none;
 }
@@ -7,8 +9,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: #3E3939;
-  margin: 0;
-  padding: 0;
 }
 
 .flex-container {
@@ -123,7 +123,7 @@ main nav ul li a:hover {
 main section {
   background-color: #F6F4F4;
   margin: 15px 0;
-  padding: 3px 25px 25px;
+  padding: 15px 25px 25px;
   border-radius: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -134,6 +134,10 @@ main section {
 main section h2 {
   font-weight: normal;
   font-size: 0.8em;
+}
+
+main section p {
+  margin-top: 15px;
 }
 
 main section img {
@@ -152,8 +156,16 @@ main section div p {
   width: 70%;
 }
 
-main section article > div {
-  margin-left: -30px;
+main section article {
+  padding: 10px 0;
+}
+
+main section article div {
+  padding-top: 10px;
+}
+
+main section article div li {
+  padding: 3px;
 }
 
 main section #section2 {
@@ -166,8 +178,16 @@ main section #section2 p {
   width: 100%;
 }
 
-main section #section2 ul {
-  padding-left: 15px;
+main section #section2 .first-ul {
+  padding: 10px 15px;
+}
+
+main section #section2 .first-ul .first-list {
+  margin: 5px 0;
+}
+
+main section #section2 .first-ul .nested-ul {
+  padding: 5px 15px;
 }
 
 main section a {
@@ -206,7 +226,7 @@ main #reviews .button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 25px;
   cursor: pointer;
 }
 
@@ -216,6 +236,10 @@ main #reviews button:hover {
 
 main #reviews article:not(:last-child) {
   border-bottom: 1px solid #3e393925;
+}
+
+main #reviews article span {
+  font-size: 0.83em;
 }
 
 footer {
@@ -232,6 +256,7 @@ footer section {
 
 footer section ul {
   text-align: left;
+  padding: 25px;
 }
 
 footer section ul li {
