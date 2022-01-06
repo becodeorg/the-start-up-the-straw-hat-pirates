@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
   color: #3E3939;
+  background-color: white;
 }
 
 .flex-container {
@@ -106,9 +107,16 @@ header nav ul #sign-up {
   margin: 0 auto;
 }
 
+main .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 main nav {
   border-bottom: 1px solid #F6F4F4;
   padding: 5px 0;
+  background-color: white;
 }
 
 main nav ul {

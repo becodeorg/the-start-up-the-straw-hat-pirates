@@ -11,6 +11,7 @@ body {
     min-height: 100vh;                  //makes full height responsive
     font-family: "Montserrat", sans-serif;
     color: #3E3939;
+    background-color: white;
 }
 // this is a container for all elements that need display flex
 .flex-container {
@@ -94,9 +95,14 @@ header {
 }
 
 main {
+    .sticky {
+        position: sticky;
+        top: 0;
+    }
     nav {
         border-bottom: 1px solid #F6F4F4;
         padding: 5px 0;
+        background-color: white;      //this way the sticky navbar is better visible
         ul {
             justify-content: start;
             margin: 5px 0;
