@@ -82,7 +82,8 @@ header {
   }
 // end of Swiper css
 
-#wrapper {                           //wrapper for main content
+//wrapper for main content
+#wrapper {                           
     max-width: 80%;   
     margin: 0 auto;
 }
@@ -110,7 +111,7 @@ main {
         }
     }
     section {
-        background-color: #F6F4F4; // it's just for visual example for layout
+        background-color: #F6F4F4; //it's just for visual example for layout
         margin: 15px 0;
         padding: 15px 25px 25px;
         border-radius: 10px;
@@ -153,10 +154,18 @@ main {
                 padding: 10px 15px;
                 .first-list {
                     margin: 5px 0;
-                    
+                    list-style-type: disc;
+                    font-weight: bold;
                 }
                 .nested-ul {
                     padding: 5px 15px;
+                    .nested-list {
+                        margin: 5px 0;
+                        font-weight: normal;
+                        p {
+                            margin: 0;
+                        }
+                    }
                 }
             }
 

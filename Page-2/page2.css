@@ -184,10 +184,21 @@ main section #section2 .first-ul {
 
 main section #section2 .first-ul .first-list {
   margin: 5px 0;
+  list-style-type: disc;
+  font-weight: bold;
 }
 
 main section #section2 .first-ul .nested-ul {
   padding: 5px 15px;
+}
+
+main section #section2 .first-ul .nested-ul .nested-list {
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+main section #section2 .first-ul .nested-ul .nested-list p {
+  margin: 0;
 }
 
 main section a {
