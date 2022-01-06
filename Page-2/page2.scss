@@ -161,6 +161,8 @@ main {
     }
 
     #reviews {
+        flex-wrap: nowrap;
+        flex-direction: row;
         .button {
             color: white;
             background-color: #FF7517;
@@ -173,6 +175,9 @@ main {
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
+        }
+        article:not(:last-child) {
+            border-bottom: 1px solid #3E3939;
         }
     }
 }
