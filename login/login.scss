@@ -63,9 +63,18 @@ main {
     align-items: center;
     
     .loginContainer {
-        width: 40%;
+        width: 60%;
+        max-width: 400px;
         height: 400px;
         background-color: #F6F4F4;
+        border-radius: 20px;
+        box-shadow: 0px 10px 15px #494343;
+
+        h1 {
+            text-align: center;
+            color: #494343;
+            margin: 20px 0;
+        }
 
         form {
             display: flex;

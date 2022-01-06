@@ -36,7 +36,7 @@ header {
             justify-content: space-around;
         }
 
-        a {
+        li a {
             color: $text-color-orange;
             padding: 10px;
             border-radius: 5%;
@@ -228,18 +228,18 @@ main {
 
 
 footer {
-
-    p {
-        color: $text-color-orange;
-    }
-    background-color: #F6F4F4;
+    background-color: #dfdfdf;
     height: 300px;
     text-align: center;
+    p {
+        color:#FF7517
+    }
     section {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         ul {
             text-align: left;
+            padding: 25px;
             li {
                 padding: 5px;
                 p {
@@ -251,7 +251,6 @@ footer {
             }
             .logo {
                 text-align: center;
-                
             }
         }
     }
