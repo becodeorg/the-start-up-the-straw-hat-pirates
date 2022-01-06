@@ -96,6 +96,10 @@ main .loginContainer form {
   padding: 5%;
 }
 
+main .loginContainer form button {
+  width: 100%;
+}
+
 main .loginContainer form input {
   margin: 10px 0;
 }
