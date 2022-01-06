@@ -86,7 +86,7 @@ header {
 //wrapper for main content
 #wrapper {                           
     max-width: 80%;   
-    margin: 0 auto;
+    margin: 0 auto; //center page
 }
 
 main {
@@ -213,7 +213,7 @@ main {
         article {
             text-align: justify;
             .star-rating {
-                font-size: 1.5em;
+                font-size: 1.5em;   //24px cause 16px is standard browser font size -> 16*1.5 = 24
                 margin-bottom: 5px;
                 .checked {
                     color: #FF7517;
