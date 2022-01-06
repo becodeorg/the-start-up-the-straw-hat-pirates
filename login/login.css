@@ -108,10 +108,12 @@ main .loginContainer form {
 
 main .loginContainer form button {
   width: 100%;
+  padding: 10px 5px;
 }
 
 main .loginContainer form input {
   margin: 10px 0;
+  line-height: 2em;
 }
 
 footer {
