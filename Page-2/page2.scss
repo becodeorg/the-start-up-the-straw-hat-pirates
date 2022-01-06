@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 body {
+    min-height: 100vh;                  //makes full height responsive
     font-family: "Montserrat", sans-serif;
     color: #3E3939;
 }
@@ -23,13 +24,15 @@ header {
     nav {
         background-color: #2C2727;
         justify-content: space-between;
-        padding: 5px 20px;
+        align-items: center;
         #logo {
             width: 200px;
+            margin: 10px;
         }
         ul {
             li {
                 padding: 0 10px;
+                margin-right: 10px;
                 a {
                     color: #FF7517;
                 }
