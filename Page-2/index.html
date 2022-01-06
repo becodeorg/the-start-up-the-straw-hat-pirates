@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zuiderpoort office complex</title>
+
     <!--swiper stylesheet-->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"> 
     <!-- Add icon library -->
@@ -221,7 +222,18 @@
                 </article>
             </div>
             <div>
-            <button class="button" type="submit">WRITE A REVIEW</button>
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzbwbwb" method="post">
+                    <fieldset id="fs-frm-inputs">
+                      <label for="name">Name</label>
+                      <input type="text" name="name" id="name" placeholder="Your name" required="">
+                      <label for="title">Title</label>
+                      <input type="text" name="title" id="title" placeholder="Title of review" required="">
+                      <label for="comment">Comment</label>
+                      <textarea rows="5" name="comment" id="comment" placeholder="Your comment here" required=""></textarea>
+                      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <input type="submit" value="WRITE REVIEW">
+                  </form>
             </div>
         </section>
     </main>
@@ -246,6 +258,7 @@
         </section>
         <p>&copy; 2022 UniWork</p>
     </footer>  
+
     <!--script for swiper--> 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
