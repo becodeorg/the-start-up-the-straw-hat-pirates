@@ -82,6 +82,11 @@ header {
   }
 // end of Swiper css
 
+#wrapper {                           //wrapper for main content
+    max-width: 80%;   
+    margin: 0 auto;
+}
+
 main {
     nav {
         border-bottom: 1px solid #F6F4F4;
@@ -125,9 +130,11 @@ main {
                 width: 70%;
             }
         }
+
         article > div {
             margin-left: -30px;
         }
+
         #section2 {
             flex-wrap: nowrap;
             width: 100%;
@@ -138,6 +145,7 @@ main {
                 padding-left: 15px;
             }
         }
+
         a {
             color: #FF7517;
             text-decoration: underline;
@@ -151,13 +159,23 @@ main {
             max-width: 100%;
         }
     }
-}
 
-#wrapper {
-    max-width: 80%;   
-    margin: 0 auto;
+    #reviews {
+        .button {
+            color: white;
+            background-color: #FF7517;
+            border: none;
+            border-radius: 5%;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    }
 }
-
 
 footer {
     background-color: #F6F4F4;

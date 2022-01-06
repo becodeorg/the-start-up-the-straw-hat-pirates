@@ -87,6 +87,11 @@ header nav ul #sign-up {
   color: #FF7517;
 }
 
+#wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 main nav {
   border-bottom: 1px solid #F6F4F4;
   padding: 5px 0;
@@ -182,9 +187,18 @@ main section iframe {
   max-width: 100%;
 }
 
-#wrapper {
-  max-width: 80%;
-  margin: 0 auto;
+main #reviews .button {
+  color: white;
+  background-color: #FF7517;
+  border: none;
+  border-radius: 5%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 footer {
