@@ -51,7 +51,7 @@ header {
 }
 
 h1, h2, p {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: $default-size;
 }
 h1 {
@@ -70,13 +70,18 @@ h2 {
     background-position: center;
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    
+    .headerText {
+        background-color: #3e393970;
+    }
     p {
-        width: 40%;
+        width: 60%;
+        margin: 15px auto;
+        text-shadow: 2px 0px 5px $main-color-dark;
+
     }
 
 }
@@ -121,6 +126,11 @@ main {
                 padding: 20px;
                 width: 70%;
                 border-radius: 5%;
+                transition: width 1s, padding 1s;
+            }
+            a:hover {
+                width: 80%;
+                padding: 25px 20px;
             }
 
             img {
@@ -171,6 +181,15 @@ main {
         border-color: $text-color-orange transparent transparent transparent;
         margin-top: 10px;
     }
+    .text2 {
+        background-color: $text-color-orange;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 5px 2px 7px rgb(182, 182, 182);
+        
+    }
 
     .textcontainer {
         background-color: $text-color-orange;
@@ -181,6 +200,8 @@ main {
         box-shadow: 2px 2px 7px rgb(182, 182, 182);
         
     }
+
+    
 }
 
 
