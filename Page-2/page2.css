@@ -211,7 +211,7 @@ main #reviews .button {
 }
 
 main #reviews article:not(:last-child) {
-  border-bottom: 1px solid #3E3939;
+  border-bottom: 1px solid #3e393925;
 }
 
 footer {
