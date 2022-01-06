@@ -76,10 +76,6 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -89,8 +85,14 @@ h2 {
   text-align: center;
 }
 
+.imageHeader .headerText {
+  background-color: #3e393970;
+}
+
 .imageHeader p {
-  width: 40%;
+  width: 60%;
+  margin: 15px auto;
+  text-shadow: 2px 0px 5px #2C2727;
 }
 
 main {
@@ -151,6 +153,13 @@ main .cardContainer .card a {
   padding: 20px;
   width: 70%;
   border-radius: 5%;
+  -webkit-transition: width 1s, padding 1s;
+  transition: width 1s, padding 1s;
+}
+
+main .cardContainer .card a:hover {
+  width: 80%;
+  padding: 25px 20px;
 }
 
 main .cardContainer .card img {
@@ -206,6 +215,16 @@ main .cardContainer .card img {
   border-width: 58px 58px 0 0;
   border-color: #FF7517 transparent transparent transparent;
   margin-top: 10px;
+}
+
+.comment .text2 {
+  background-color: #FF7517;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 5px 2px 7px #b6b6b6;
+          box-shadow: 5px 2px 7px #b6b6b6;
 }
 
 .comment .textcontainer {
