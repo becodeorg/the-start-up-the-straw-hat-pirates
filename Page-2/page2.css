@@ -138,6 +138,7 @@ main section h2 {
 
 main section p {
   margin-top: 15px;
+  text-align: justify;
 }
 
 main section img {
@@ -247,6 +248,14 @@ main #reviews button:hover {
 
 main #reviews article:not(:last-child) {
   border-bottom: 1px solid #3e393925;
+}
+
+main #reviews article {
+  text-align: justify;
+}
+
+main #reviews article h4 {
+  margin-bottom: 10px;
 }
 
 main #reviews article span {
