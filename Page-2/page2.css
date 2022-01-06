@@ -107,7 +107,7 @@ header nav ul #sign-up {
   margin: 0 auto;
 }
 
-main .sticky {
+main nav.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -153,7 +153,7 @@ main section {
           flex-direction: column;
 }
 
-main section h2 {
+main section .small {
   font-weight: normal;
   font-size: 0.8em;
 }
@@ -191,36 +191,36 @@ main section article div li {
   padding: 3px;
 }
 
-main section #section2 {
+main section .section2 {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   width: 100%;
 }
 
-main section #section2 p {
+main section .section2 p {
   width: 100%;
 }
 
-main section #section2 .first-ul {
+main section .section2 .first-ul {
   padding: 10px 15px;
 }
 
-main section #section2 .first-ul .first-list {
+main section .section2 .first-ul .first-list {
   margin: 5px 0;
   list-style-type: disc;
   font-weight: bold;
 }
 
-main section #section2 .first-ul .nested-ul {
+main section .section2 .first-ul .nested-ul {
   padding: 5px 15px;
 }
 
-main section #section2 .first-ul .nested-ul .nested-list {
+main section .section2 .first-ul .nested-ul .nested-list {
   margin: 5px 0;
   font-weight: normal;
 }
 
-main section #section2 .first-ul .nested-ul .nested-list p {
+main section .section2 .first-ul .nested-ul .nested-list p {
   margin: 0;
 }
 
@@ -251,25 +251,7 @@ main #reviews {
           flex-direction: row;
 }
 
-main #reviews .button {
-  color: white;
-  background-color: #FF7517;
-  border: none;
-  border-radius: 5%;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 25px;
-  cursor: pointer;
-}
-
-main #reviews button:hover {
-  font-weight: bold;
-}
-
-main #reviews article:not(:last-child) {
+main #reviews article:not(:first-child):not(:last-child) {
   border-bottom: 1px solid #3e393925;
 }
 
@@ -282,7 +264,7 @@ main #reviews article .star-rating {
   margin-bottom: 5px;
 }
 
-main #reviews article .star-rating .checked {
+main #reviews article .checked {
   color: #FF7517;
 }
 
@@ -293,6 +275,11 @@ main #reviews article h4 {
 
 main #reviews article span {
   font-size: 0.83em;
+}
+
+main #reviews h2 {
+  font-size: 1em;
+  margin-bottom: 5px;
 }
 
 #fs-frm input,

@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-
+//--------------header-------------------
 header {
     background-color: #3E3939;
     flex-direction: column;
@@ -88,14 +88,14 @@ header {
   }
 // end of Swiper css
 
-//wrapper for main content
+//-------------wrapper for main content--------------
 #wrapper {                           
     max-width: 80%;   
     margin: 0 auto; //center page
 }
-
+//--------main content------------
 main {
-    .sticky {
+    nav.sticky {
         position: sticky;
         top: 0;
     }
@@ -128,7 +128,7 @@ main {
         padding: 15px 25px 25px;
         border-radius: 10px;
         flex-direction: column;
-        h2 {
+        .small {
             font-weight: normal;
             font-size: 0.8em;
         }
@@ -157,7 +157,7 @@ main {
             }
         }
 
-        #section2 {
+        .section2 {
             flex-wrap: nowrap;
             width: 100%;
             p {
@@ -201,23 +201,7 @@ main {
     #reviews {
         flex-wrap: nowrap;
         flex-direction: row;
-        .button {
-            color: white;
-            background-color: #FF7517;
-            border: none;
-            border-radius: 5%;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 25px;
-            cursor: pointer;
-        }
-        button:hover {
-            font-weight: bold;
-        }
-        article:not(:last-child) {
+        article:not(:first-child):not(:last-child) {
             border-bottom: 1px solid #3e393925;
         }
         article {
@@ -225,9 +209,9 @@ main {
             .star-rating {
                 font-size: 1.5em;   //24px cause 16px is standard browser font size -> 16*1.5 = 24
                 margin-bottom: 5px;
-                .checked {
-                    color: #FF7517;
-                }
+            }
+            .checked {
+                color: #FF7517;
             }
             h4 {
                 margin-bottom: 10px;
@@ -237,10 +221,14 @@ main {
                 font-size: 0.83em;          //same font size as h5
             }
         }  
+        h2 {
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
     }
 }
 
-//form from formspree
+//--------------form from formspree-----------
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
@@ -355,7 +343,7 @@ width: 20%;
 margin-right: 3%;
 }
 
-
+//---------start of the footer--------------
 footer {
     background-color: #F6F4F4;
     height: 300px;
