@@ -207,12 +207,16 @@ main {
 
 
 footer {
+
+    p {
+        color: $text-color-orange;
+    }
     background-color: #F6F4F4;
     height: 300px;
     text-align: center;
     section {
         display: flex;
-        justify-content: start;
+        justify-content: center;
         ul {
             text-align: left;
             li {
@@ -226,6 +230,7 @@ footer {
             }
             .logo {
                 text-align: center;
+                
             }
         }
     }
