@@ -147,6 +147,16 @@ main section div p {
   width: 70%;
 }
 
+main section #section2 {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+}
+
+main section #section2 p {
+  width: 100%;
+}
+
 main section a {
   color: #FF7517;
   text-decoration: underline;

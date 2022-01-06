@@ -125,6 +125,13 @@ main {
                 width: 70%;
             }
         }
+        #section2 {
+            flex-wrap: nowrap;
+            width: 100%;
+            p {
+                width: 100%;
+            }
+        }
         a {
             color: #FF7517;
             text-decoration: underline;
