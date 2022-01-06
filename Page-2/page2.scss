@@ -5,6 +5,7 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    box-sizing: border-box;
 }
 body {
     font-family: "Montserrat", sans-serif;
@@ -82,9 +83,10 @@ header {
   }
 // end of Swiper css
 
-#wrapper {                           //wrapper for main content
+//wrapper for main content
+#wrapper {                           
     max-width: 80%;   
-    margin: 0 auto;
+    margin: 0 auto; //center page
 }
 
 main {
@@ -109,8 +111,9 @@ main {
             }
         }
     }
+
     section {
-        background-color: #F6F4F4; // it's just for visual example for layout
+        background-color: #F6F4F4; //it's just for visual example for layout
         margin: 15px 0;
         padding: 15px 25px 25px;
         border-radius: 10px;
@@ -121,6 +124,7 @@ main {
         }
         p {
             margin-top: 15px;
+            text-align: justify;
         }
         img {                   //this makes the img responsive
             max-width: 100%;
@@ -153,13 +157,20 @@ main {
                 padding: 10px 15px;
                 .first-list {
                     margin: 5px 0;
-                    
+                    list-style-type: disc;
+                    font-weight: bold;
                 }
                 .nested-ul {
                     padding: 5px 15px;
+                    .nested-list {
+                        margin: 5px 0;
+                        font-weight: normal;
+                        p {
+                            margin: 0;
+                        }
+                    }
                 }
             }
-
         }
 
         a {
@@ -172,6 +183,7 @@ main {
         }
         iframe {
             margin: 10px;
+            padding: 0 20px 20px;
             max-width: 100%;
         }
     }
@@ -199,6 +211,18 @@ main {
             border-bottom: 1px solid #3e393925;
         }
         article {
+            text-align: justify;
+            .star-rating {
+                font-size: 1.5em;   //24px cause 16px is standard browser font size -> 16*1.5 = 24
+                margin-bottom: 5px;
+                .checked {
+                    color: #FF7517;
+                }
+            }
+            h4 {
+                margin-bottom: 10px;
+                color:#FF7517;
+            }
             span {
                 font-size: 0.83em;          //same font size as h5
             }
@@ -210,6 +234,9 @@ footer {
     background-color: #F6F4F4;
     height: 300px;
     text-align: center;
+    p {
+        color:#FF7517
+    }
     section {
         justify-content: start;
         ul {

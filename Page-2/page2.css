@@ -4,6 +4,8 @@
   padding: 0;
   text-decoration: none;
   list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -138,6 +140,7 @@ main section h2 {
 
 main section p {
   margin-top: 15px;
+  text-align: justify;
 }
 
 main section img {
@@ -184,10 +187,21 @@ main section #section2 .first-ul {
 
 main section #section2 .first-ul .first-list {
   margin: 5px 0;
+  list-style-type: disc;
+  font-weight: bold;
 }
 
 main section #section2 .first-ul .nested-ul {
   padding: 5px 15px;
+}
+
+main section #section2 .first-ul .nested-ul .nested-list {
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+main section #section2 .first-ul .nested-ul .nested-list p {
+  margin: 0;
 }
 
 main section a {
@@ -204,6 +218,7 @@ main section a:hover {
 
 main section iframe {
   margin: 10px;
+  padding: 0 20px 20px;
   max-width: 100%;
 }
 
@@ -238,6 +253,24 @@ main #reviews article:not(:last-child) {
   border-bottom: 1px solid #3e393925;
 }
 
+main #reviews article {
+  text-align: justify;
+}
+
+main #reviews article .star-rating {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+main #reviews article .star-rating .checked {
+  color: #FF7517;
+}
+
+main #reviews article h4 {
+  margin-bottom: 10px;
+  color: #FF7517;
+}
+
 main #reviews article span {
   font-size: 0.83em;
 }
@@ -246,6 +279,10 @@ footer {
   background-color: #F6F4F4;
   height: 300px;
   text-align: center;
+}
+
+footer p {
+  color: #FF7517;
 }
 
 footer section {
