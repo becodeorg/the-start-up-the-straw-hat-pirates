@@ -137,9 +137,11 @@ main {
             margin-top: 15px;
             text-align: justify;
         }
-        img {                   //this makes the img responsive
+        div {
+            img {                   //this makes the img responsive
             max-width: 100%;
             height: auto;
+            }
         }
         div {
             justify-content: space-between;
@@ -405,12 +407,18 @@ footer {
 
 @media screen and (max-width: 425px) {
     header {
+        height: 350px;                          //for swiper to fit
         nav {
             flex-direction: column;
         }
     }
 
     main {
+        nav {
+            ul {
+                justify-content: center;
+            }
+        }
         #overview {
             text-align: center;
             div {

@@ -163,7 +163,7 @@ main section p {
   text-align: justify;
 }
 
-main section img {
+main section div img {
   max-width: 100%;
   height: auto;
 }
@@ -517,11 +517,19 @@ footer section ul .logo {
 }
 
 @media screen and (max-width: 425px) {
+  header {
+    height: 350px;
+  }
   header nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  main nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   main #overview {
     text-align: center;
