@@ -428,6 +428,11 @@ footer {
     }
 
     main {
+        .sticky {
+            ul {
+                justify-content: center;
+            }
+        }
         #overview {
             text-align: center;
             div {

@@ -542,6 +542,11 @@ footer section ul .logo {
   header nav ul {
     margin-bottom: 15px;
   }
+  main .sticky ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   main #overview {
     text-align: center;
   }
