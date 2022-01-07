@@ -500,4 +500,68 @@ footer section ul li a {
 footer section ul .logo {
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  main section div {
+    width: 100%;
+  }
+  main .section2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .section2 .iframe {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main #overview {
+    text-align: center;
+  }
+  main #overview div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main #overview div p {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  main #overview article div {
+    text-align: left;
+  }
+  main #reviews {
+    text-align: center;
+  }
+  main #reviews .reviews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main #reviews div article {
+    text-align: center;
+  }
+  main #reviews div article p {
+    text-align: center;
+  }
+  #fs-frm [type="submit"] {
+    margin: 0 auto;
+  }
+  footer section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=page2.css.map */
