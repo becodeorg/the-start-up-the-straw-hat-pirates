@@ -1,6 +1,6 @@
 # 👩‍🎓 UniWork - Work from anyplace, anywhere.
 
-Uniwork is startup which offers business owners or people with an extra unused room to rent it out as office for people who are on the road or want a change of scenery from there usual office at home. Connect with people of all different backgrounds at places that peek your interest maybe you'll even find your new business partner here!
+Uniwork is startup which offers business owners or people with an unused room to rent it out as office space for people who are on the road or want a change of scenery from their usual office at home. Connect with people from all different backgrounds at a place that peeks your interest maybe you'll even find your new business in one of the places listed on our website!
 
 ### ✨ Made by [Jian Beerens](https://github.com/BeerensJian) & [Michelle Radomski](https://github.com/Michelle-Radomski)
 
