@@ -559,7 +559,7 @@ footer section ul .logo {
   main #overview div p {
     width: 100%;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: justify;
   }
   main #overview article div {
     text-align: left;
