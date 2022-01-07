@@ -316,5 +316,32 @@ footer section ul .logo {
   #wrapper {
     width: 100%;
   }
+  #wrapper h2 {
+    font-size: 1.5em;
+    padding: 20px 0px;
+  }
+  .comment {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .comment .textbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 10px;
+    width: 80%;
+  }
+  .comment .textbox .arrowRight {
+    margin-top: unset;
+    margin-left: 10px;
+  }
+  .comment .textbox .arrow {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-left: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
