@@ -83,12 +83,18 @@ main {
             padding: 5%;
 
             button {
-                width: 100%;
+                width: 30%;
                 padding: 10px 5px;
+                margin-right: 10px;
             }
             input {
                 margin: 10px 0;
                 line-height: 2em; // 2em is (2 * default line height)
+            }
+            .row {
+                display: flex;
+                justify-content: start;
+                align-items: center;
             }
         }
     }

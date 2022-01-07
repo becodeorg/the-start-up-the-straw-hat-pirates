@@ -19,17 +19,19 @@
         <div class="loginContainer">
             <h1>Login</h1>
             <form action="" method="post">
-                    <label for="username">Username : </label>   
-                    <input type="text" placeholder="Enter Username" name="username" id="username" required>  
-                    <label for="password">Password : </label>   
-                    <input type="password" placeholder="Enter Password" name="password" id="password" required>  
-                        <div>
-                            <button type="submit" value="Login">Login</button>
-                            <input type="checkbox" checked="checked"> Remember me 
-                        </div>
-                        <div>
-                            <a href="#">Forgot password? </a>
-                        </div>
+                <label for="username">Username : </label>   
+                <input type="text" placeholder="Enter Username" name="username" id="username" required>  
+                <label for="password">Password : </label>   
+                <input type="password" placeholder="Enter Password" name="password" id="password" required>  
+                <div class="row">
+                    <button type="submit" value="Login">Login</button>
+                    <div>
+                        <input type="checkbox" checked="checked" id="remember-me" name="remember-me">
+                        <label for="remember-me">Remember me</label>
+                    </div>
+                </div><br>
+                <a href="#">Forgot password? </a>
+
             </form>
         </div>
     </main>

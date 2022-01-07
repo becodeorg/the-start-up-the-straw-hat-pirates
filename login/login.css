@@ -107,13 +107,26 @@ main .loginContainer form {
 }
 
 main .loginContainer form button {
-  width: 100%;
+  width: 30%;
   padding: 10px 5px;
+  margin-right: 10px;
 }
 
 main .loginContainer form input {
   margin: 10px 0;
   line-height: 2em;
+}
+
+main .loginContainer form .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer {
