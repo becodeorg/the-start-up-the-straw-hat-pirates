@@ -523,13 +523,16 @@ footer section ul .logo {
 
 @media screen and (max-width: 425px) {
   header {
-    height: 350px;
+    height: 375px;
   }
   header nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  header nav ul {
+    margin-bottom: 15px;
   }
   main #overview {
     text-align: center;
