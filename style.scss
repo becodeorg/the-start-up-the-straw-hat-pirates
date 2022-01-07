@@ -269,10 +269,36 @@ footer {
         li {
             padding-bottom: 10px;
         }
+        
     }
+
 
     #wrapper {
         width: 100%;
+
+        h2 {
+            font-size: $default-size *1.5;
+            padding: 20px 0px;
+        }
+    }
+
+    .comment {
+        flex-direction: column;
+
+        .textbox {
+            flex-direction: column;
+            margin-top: 10px;
+            width: 80%;
+
+            .arrowRight {
+                margin-top: unset;
+                margin-left: 10px;
+            }
+            .arrow {
+                transform: rotate(90deg);
+                margin-left: 10px;
+            }
+        }
     }
 
 }
