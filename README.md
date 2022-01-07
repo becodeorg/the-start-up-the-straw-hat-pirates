@@ -4,6 +4,7 @@ Uniwork is startup which offers business owners or people with an extra unused r
 
 ### ✨ Made by [Jian Beerens](https://github.com/BeerensJian) & [Michelle Radomski](https://github.com/Michelle-Radomski)
 
+
 ## 🛠️ Why did we make it?
 
 Uniwork was made in the course of 3 days as a project for our class @Becode where we had to create a a fictive startup and get experience working in a team, paying attention to all the nitty gritty of making a working layout and keep in cmind that we're both working on the same project and not just doing our own thing.
@@ -13,6 +14,7 @@ Uniwork was made in the course of 3 days as a project for our class @Becode wher
 All of the images on our website are free to use.
 
 Shoutout to the respective owners of each Image, They we're gathered from:
-[Pexels](https://www.pexels.com/)
+
+[Pexels](https://www.pexels.com/) ,
 [Pixabay](https://pixabay.com/)
 & More....
