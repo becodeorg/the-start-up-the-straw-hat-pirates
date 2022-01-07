@@ -344,5 +344,10 @@ footer section ul .logo {
             transform: rotate(90deg);
     margin-left: 10px;
   }
+  footer section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
