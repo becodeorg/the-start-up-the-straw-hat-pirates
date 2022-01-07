@@ -34,17 +34,24 @@ header {
             margin: 10px;
         }
         ul {
-            li {
-                padding: 0 10px;
-                margin-right: 10px;
-                a {
-                    color: #FF7517;
-                }
-            }
-            #sign-up {
-                border-left: 1px solid #FF7517;
+            width: 200px;
+            justify-content: space-evenly;
+
+            li:first-child a {
+                background-color: #FF7517;
+                color: rgb(0, 0, 0);
                 font-weight: bold;
             }
+            
+            li {
+                
+                a {
+                    color: #FF7517;
+                    padding: 10px;
+                    border-radius: 5%;
+                }
+            }
+            
         }
     }
 }
@@ -137,11 +144,9 @@ main {
             margin-top: 15px;
             text-align: justify;
         }
-        div {
-            img {                   //this makes the img responsive
+        img {                   //this makes the img responsive
             max-width: 100%;
             height: auto;
-            }
         }
         div {
             justify-content: space-between;
@@ -407,18 +412,12 @@ footer {
 
 @media screen and (max-width: 425px) {
     header {
-        height: 350px;                          //for swiper to fit
         nav {
             flex-direction: column;
         }
     }
 
     main {
-        nav {
-            ul {
-                justify-content: center;
-            }
-        }
         #overview {
             text-align: center;
             div {

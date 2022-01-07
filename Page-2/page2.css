@@ -50,18 +50,23 @@ header nav #logo {
   margin: 10px;
 }
 
-header nav ul li {
-  padding: 0 10px;
-  margin-right: 10px;
+header nav ul {
+  width: 200px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header nav ul li:first-child a {
+  background-color: #FF7517;
+  color: black;
+  font-weight: bold;
 }
 
 header nav ul li a {
   color: #FF7517;
-}
-
-header nav ul #sign-up {
-  border-left: 1px solid #FF7517;
-  font-weight: bold;
+  padding: 10px;
+  border-radius: 5%;
 }
 
 /*----------used Swiper library for the carousel---------*/
@@ -163,7 +168,7 @@ main section p {
   text-align: justify;
 }
 
-main section div img {
+main section img {
   max-width: 100%;
   height: auto;
 }
@@ -517,19 +522,11 @@ footer section ul .logo {
 }
 
 @media screen and (max-width: 425px) {
-  header {
-    height: 350px;
-  }
   header nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  main nav ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   main #overview {
     text-align: center;
