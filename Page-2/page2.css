@@ -564,6 +564,9 @@ footer section ul .logo {
   main #overview article div {
     text-align: left;
   }
+  main #location h1, main #location h2 {
+    text-align: center;
+  }
   main #reviews {
     text-align: center;
   }
