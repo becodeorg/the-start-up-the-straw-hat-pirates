@@ -242,17 +242,30 @@ main section iframe {
   max-width: 100%;
 }
 
-main #reviews {
+main #reviews .reviews {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 100%;
+  padding: 10px 0;
 }
 
-main #reviews article:not(:first-child):not(:last-child) {
+main #reviews article:not(:last-child) {
   border-bottom: 1px solid #3e393925;
+}
+
+main #reviews #average-rating {
+  border: none;
+  padding: 0;
 }
 
 main #reviews article {
@@ -275,6 +288,10 @@ main #reviews article h4 {
 
 main #reviews article span {
   font-size: 0.83em;
+}
+
+main #reviews article p {
+  width: 100%;
 }
 
 main #reviews h2 {
