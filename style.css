@@ -54,18 +54,19 @@ header nav li:first-child a {
 
 h1, h2, p {
   color: white;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3em;
   text-shadow: 2px 0px 5px #2C2727;
 }
 
 h2 {
-  font-size: 32px;
-  margin-top: 20px;
+  font-size: 2em;
+  margin-top: 50px;
   color: #706a6a;
+  padding: 30px;
 }
 
 .imageHeader {
@@ -96,7 +97,7 @@ h2 {
 }
 
 #wrapper {
-  max-width: 80%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -300,5 +301,20 @@ footer section ul li a {
 
 footer section ul .logo {
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav li {
+    padding-bottom: 10px;
+  }
+  #wrapper {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
