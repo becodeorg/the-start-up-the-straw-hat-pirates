@@ -35,9 +35,10 @@ header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 400px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  width: 300px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 header nav li a {
