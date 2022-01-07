@@ -266,8 +266,8 @@ footer {
     nav {
         flex-direction: column;
 
-        li {
-            padding-bottom: 10px;
+        ul {
+            margin-bottom: 15px;
         }
         
     }
@@ -301,4 +301,9 @@ footer {
         }
     }
 
+    footer {
+        section {
+            justify-content: center;
+        }
+    }
 }
