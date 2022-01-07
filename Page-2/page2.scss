@@ -199,10 +199,20 @@ main {
     }
 
     #reviews {
-        flex-wrap: nowrap;
-        flex-direction: row;
-        article:not(:first-child):not(:last-child) {
+        .reviews {
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: start;
+            width: 100%;
+            padding: 10px 0;
+        }
+        article:not(:last-child) {
             border-bottom: 1px solid #3e393925;
+        }
+        #average-rating {
+            border: none;
+            padding: 0;
         }
         article {
             text-align: justify;
@@ -219,6 +229,9 @@ main {
             }
             span {
                 font-size: 0.83em;          //same font size as h5
+            }
+            p {
+                width: 100%;
             }
         }  
         h2 {
