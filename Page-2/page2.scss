@@ -412,6 +412,7 @@ footer {
 
 @media screen and (max-width: 425px) {
     header {
+        height: 350px;                  //makes swiper fit on mobile
         nav {
             flex-direction: column;
         }

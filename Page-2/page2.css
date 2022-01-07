@@ -522,6 +522,9 @@ footer section ul .logo {
 }
 
 @media screen and (max-width: 425px) {
+  header {
+    height: 350px;
+  }
   header nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
