@@ -27,7 +27,6 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
 
         img {
             width: 200px;
@@ -80,7 +79,7 @@ main {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding: 5%;
+            padding: 20px;
 
             button {
                 width: 30%;
@@ -105,7 +104,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 75px;
     background-color: #3E3939;
     color:#FF7517;
 }

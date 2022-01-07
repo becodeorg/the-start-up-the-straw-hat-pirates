@@ -32,7 +32,6 @@ header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
 }
 
 header nav img {
@@ -103,7 +102,7 @@ main .loginContainer form {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 5%;
+  padding: 20px;
 }
 
 main .loginContainer form button {
@@ -139,7 +138,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 50px;
+  height: 75px;
   background-color: #3E3939;
   color: #FF7517;
 }
